@@ -1,4 +1,4 @@
-# ClaudeCodeDoc
+# Claude Code Guide
 
 Claude Code skill for Claude Code resources.
 
@@ -52,7 +52,7 @@ cp -r claude-code-guide ~/.claude/skills/
 ## Files
 
 ```
-ClaudeCodeDoc/
+claude-code-guide/
 ├── claude-code-guide/        # Skill source
 │   ├── SKILL.md
 │   └── references/
