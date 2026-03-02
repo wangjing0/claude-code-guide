@@ -46,13 +46,14 @@ cp -r guide-me ~/.claude/skills/
 
 **Sources it queries:**
 - [Claude Code docs](https://code.claude.com/docs/en/overview)
-- [Anthropic blog](https://claude.com/blog)
+- [Anthropic blogs](https://claude.com/blog)
 - [r/ClaudeCode](https://www.reddit.com/r/ClaudeCode/) and [r/ClaudeAI](https://www.reddit.com/r/ClaudeAI/)
+- [r/Anthropic](https://www.reddit.com/r/Anthropic/) and [r/claude](https://www.reddit.com/r/claude/)
 
 ## Files
 
 ```
-ClaudeCodeDoc/
+claude-code-guide/
 ├── guide-me/                 # Skill source
 │   ├── SKILL.md
 │   └── references/
