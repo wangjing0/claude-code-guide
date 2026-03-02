@@ -1,5 +1,5 @@
 ---
-name: claude-code-guide
+name: guide-me
 description: Live guidance for Claude Code (the CLI tool and agentic coding environment). Answers questions about features, configuration, workflows, hooks, MCP servers, skills, CLAUDE.md, IDE integrations, keyboard shortcuts, settings, and best practices. Fetches up-to-date information from official Anthropic documentation, blogs, and community discussions at runtime. Use when users ask "How do I...", "Can Claude Code...", "What is...", "Why isn't...", or anything about Claude Code behavior or setup.
 ---
 
@@ -16,6 +16,8 @@ Answer questions about Claude Code by fetching live information from authorized 
 | Blog | `https://claude.com/blog/<slug>` | Release announcements, use cases |
 | Reddit r/ClaudeCode | `https://www.reddit.com/r/ClaudeCode/` | Community tips, workarounds, real-world usage |
 | Reddit r/ClaudeAI | `https://www.reddit.com/r/ClaudeAI/` | Broader community knowledge |
+| Reddit r/Anthropic | `https://www.reddit.com/r/Anthropic/` | Anthropic news, model releases, company updates |
+| Reddit r/claude | `https://www.reddit.com/r/claude/` | General Claude usage, prompting, community Q&A |
 
 **Important:** Never invent URLs or fabricate documentation content. Always fetch to verify.
 
@@ -24,7 +26,7 @@ Answer questions about Claude Code by fetching live information from authorized 
 1. Identify the topic from the user's question
 2. Match to a page from [references/docs-index.md](references/docs-index.md)
 3. WebFetch that page for authoritative content
-4. For community context, use WebSearch targeting `site:reddit.com/r/ClaudeCode` or `site:reddit.com/r/ClaudeAI`
+4. For community context, use WebSearch targeting `site:reddit.com/r/ClaudeCode`, `site:reddit.com/r/ClaudeAI`, `site:reddit.com/r/Anthropic`, or `site:reddit.com/r/claude`
 5. Synthesize and cite the source URL in your answer
 
 When the right page is unclear, fetch `https://code.claude.com/docs/llms.txt` first to browse all available pages.

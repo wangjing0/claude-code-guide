@@ -107,3 +107,5 @@ For community knowledge, use WebSearch with these patterns:
 - Recent tips: `site:reddit.com/r/ClaudeCode <topic>`
 - Known issues: `site:reddit.com/r/ClaudeAI "Claude Code" <problem>`
 - Workarounds: `site:reddit.com/r/ClaudeCode workaround <feature>`
+- Anthropic news/releases: `site:reddit.com/r/Anthropic <topic>`
+- General Claude Q&A: `site:reddit.com/r/claude <topic>`

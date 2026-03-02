@@ -1,6 +1,6 @@
-# Claude Code Guide
+# Guide Me
 
-Claude Code skill for Claude Code resources.
+A Claude skill for guiding users to Claude Code resources.
 
 ## Setup
 
@@ -13,35 +13,35 @@ Then install the skill (pick one):
 
 ```bash
 # Option 1 — install from the packaged file
-claude skill install claude-code-guide.skill
+claude skill install guide-me.skill
 
 # Option 2 — copy the source folder directly
-cp -r claude-code-guide ~/.claude/skills/
+cp -r guide-me ~/.claude/skills/
 ```
 
 Restart Claude Code. The skill is ready.
 
 ## Skills
 
-### claude-code-guide
+### guide-me
 
 Answers questions about Claude Code by fetching live information from official Anthropic docs and community resources at runtime.
 
 **Install globally:**
 ```bash
-claude skill install claude-code-guide.skill
+claude skill install guide-me.skill
 ```
 
 **Or copy the folder directly:**
 ```bash
-cp -r claude-code-guide ~/.claude/skills/
+cp -r guide-me ~/.claude/skills/
 ```
 
-**Usage:** Ask any Claude Code question naturally — the skill triggers automatically, or invoke it explicitly with `/claude-code-guide`.
+**Usage:** Ask any Claude Code question naturally — the skill triggers automatically, or invoke it explicitly with `/guide-me`.
 
 **Example in Claude Code:**
 ```bash
-/claude-code-guide What is the difference between CLAUDE.md and MEMORY.md?
+/guide-me What is the difference between CLAUDE.md and MEMORY.md?
 ```
 
 **Sources it queries:**
@@ -52,10 +52,10 @@ cp -r claude-code-guide ~/.claude/skills/
 ## Files
 
 ```
-claude-code-guide/
-├── claude-code-guide/        # Skill source
+ClaudeCodeDoc/
+├── guide-me/                 # Skill source
 │   ├── SKILL.md
 │   └── references/
 │       └── docs-index.md
-└── claude-code-guide.skill   # Packaged for distribution
+└── guide-me.skill            # Packaged for distribution
 ```
